@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Формы</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Poppins:wght@100&family=Raleway:wght@100&family=Roboto:wght@100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section class="section">
+    <div class="container">
+      <div class="data-box">
+        <form class="form" action="#" method="post">
+          <div class="form-user__title title">Данные получателя</div>
+          <div class="form-user__info">
+            <input class="form-user__info-text" type="text" name="surname" value="" placeholder="Фамилия">
+            <input class="form-user__info-text" type="text" name="name" value="" placeholder="Имя">
+            <input class="form-user__info-text" type="text" name="patronymic" value="" placeholder="Отчество">
+            <input class="form-user__info-text" type="tel" name="tel" value="" placeholder="Номер телефона">
+            <div class="form__info-comment">По этому номеру телефона мы cвяжемся с вами для подтверждения заказа</div>
+            <input class="form-user__info-text" type="mail" name="mail" value="" placeholder="E-mail">
+            <div class="form__info-comment">На эту почту вам придет письмо с составом заказа, а так же трэк-номер для его отслеживания</div>
+          </div>
+          <div class="form-subscribe">
+            <input checked class="form-subscribe__sing" type="checkbox" name="sing" value="">
+            <div class="form-subscribe__text">Подписаться на рассылку новинок и акций</div>
+          </div>
+          <div class="form-pay">
+            <div class="form-pay__title title">Способ оплаты</div>
+            <div class="form-pay__radio">
+              <input class="form-pay__type" type="radio" name="pay" value="cash">
+              <div class="form-pay__type-text">Оплата при получении наличными или картой</div>
+            </div>
+            <div class="form-pay__radio">
+              <input checked class="form-pay__type" type="radio" name="pay" value="card">
+              <div class="form-pay__type-text">Оплата банковской картой онлайн</div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
